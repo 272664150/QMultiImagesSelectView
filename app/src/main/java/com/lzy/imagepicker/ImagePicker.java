@@ -108,6 +108,10 @@ public class ImagePicker {
         return crop;
     }
 
+    public void setCrop(boolean crop) {
+        this.crop = crop;
+    }
+
     public boolean isShowCamera() {
         return showCamera;
     }

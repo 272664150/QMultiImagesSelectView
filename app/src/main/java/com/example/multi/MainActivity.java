@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initImagePicker() {
         ImagePicker imagePicker = ImagePicker.getInstance();
-        //设置图片加载器
+        imagePicker.setCrop(false);
         imagePicker.setImageLoader(new GlideImageLoader());
     }
 
