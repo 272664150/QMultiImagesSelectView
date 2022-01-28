@@ -116,6 +116,10 @@ public class ImagePicker {
         return showCamera;
     }
 
+    public void setShowCamera(boolean showCamera) {
+        this.showCamera = showCamera;
+    }
+
     public boolean isSaveRectangle() {
         return isSaveRectangle;
     }
